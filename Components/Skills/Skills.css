@@ -1,0 +1,58 @@
+.skills-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.skills-h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #230a61;
+  margin: 0;
+
+}
+.skills-p {
+  font-size: 1em;
+  font-weight: bold;
+  color: rgba(57, 55, 55, 0.988);
+
+  margin: 0;
+}
+.service-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff; /* Changez la couleur de fond */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Ajoutez une ombre */
+  transition: all 0.3s ease; /* Ajoutez une transition pour un effet dynamique au survol */
+}
+
+.service-card:hover {
+  transform: translateY(-5px); /* Ajoutez une légère animation de survol */
+  cursor: pointer ;
+  
+    background-color: #c5b0fb; /* Changement de couleur de fond au survol */
+  
+}
+
+.service-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #230a61;
+}
+
+.service-description {
+  margin-top: 10px;
+  color: #5c5b5b;
+  font-size: 1.1em; /* Ajouter une taille de police plus grande */
+  
+}
+.skills {
+  padding: 2rem;
+  background: linear-gradient(90deg, #02264a 0%, #007bff 100%);
+}
+
+.service-card {
+  margin-bottom: 20px; /* Ajoutez un espacement entre les cartes de service */
+}

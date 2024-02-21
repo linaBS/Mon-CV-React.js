@@ -1,0 +1,70 @@
+      /* About.css */
+
+.about {
+    padding: 2rem;
+    background: linear-gradient(90deg, #02264a 0%, #007bff 100%);
+
+}
+ 
+  
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff; /* Changer la couleur du titre en blanc */
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.6;
+    margin-left: 1rem;
+
+  }
+ 
+  
+  .about-img  {
+    position: relative; 
+        max-width: 30%; /* Réduire la largeur de l'image */ 
+        height: auto;
+        float: right; /* Décaler l'image vers la droite */ 
+        margin-left: 30rem; /* Ajouter un espacement à gauche de l'image */ 
+      }
+  
+  .about-img:hover {
+    transform: scale(1.05); /* Ajouter une légère animation de survol */
+  }
+  
+.btn-download {
+    position: absolute; /* Positionnement absolu */
+    bottom: -40%; /* Distance par rapport au bas de l'image */
+    left: 70%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Déplacer de moitié de la largeur du bouton vers la gauche pour le centrer */
+    padding: 10px 20px; /* Rembourrage du bouton */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Ajouter un rayon de bordure */
+    cursor: pointer; /* Curseur pointeur */
+    transition: background-color 0.3s ease; /* Animation de transition */
+  }
+  
+  .btn-download:hover {
+    background-color: #0056b3; /* Changement de couleur de fond au survol */
+  }
+  .flex-container {
+    display: flex; /* Afficher les éléments sur une même ligne */
+    align-items: center; /* Aligner les éléments verticalement au centre */
+  }
+  
+  .contentText {
+    font-size: 1.5rem ; /* Taille de police */
+    color:white; /* Couleur du texte */
+    margin-right: 6rem; /* Espacement à droite entre les éléments */
+  }
+  .plus {
+    font-size: 2.2rem; /* Taille de police */
+    color: #0a74e7; /* Couleur du signe plus */
+    margin-right: 0.5rem; /* Espacement à droite pour séparer du texte */
+  }  
+  

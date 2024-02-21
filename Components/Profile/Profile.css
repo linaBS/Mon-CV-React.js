@@ -1,0 +1,94 @@
+
+.profile {
+    padding: 2rem 0;
+    background: linear-gradient(90deg, #02264a 0%, #007bff 100%);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Animation personnalisée pour le fond */
+  @keyframes gradientAnimation {
+    to {
+      background-position: 200% 0; /* Déplace le dégradé de couleurs */
+    }
+  }
+ 
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem; /* Ajouter un espace de 2rem entre les colonnes */
+
+  }
+  
+  .profile-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-bottom: 10rem;
+    
+  }
+  
+  .profile-text h1 {
+   
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: inline-block; /* Permet d'appliquer l'animation */
+    /*animation: gradientTextAnimation 3s infinite alternate; /* Animation de 3 secondes en boucle */
+  
+    /* Ajout d'une transition pour un effet plus doux */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+ 
+  
+  .profile-img {
+    flex: 1;
+    text-align: right;
+    max-width: 400px;
+    margin-left: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; 
+    margin-right: 30rem; /* Ajouter un espacement à gauche de l'image */ 
+
+  }
+
+  
+  .profile-img img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-img :hover {
+    transform: scale(1.1);
+  }
+ 
+ 
+  .profile-button {
+    margin-top: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  

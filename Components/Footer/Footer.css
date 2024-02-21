@@ -1,0 +1,10 @@
+.footer{
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte */
+  background: linear-gradient(90deg, #0c012d 0%, #4d1abc 100%);
+
+}
+.footer p {
+    margin: 0; /* Supprimer les marges par défaut */
+  }

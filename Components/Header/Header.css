@@ -1,0 +1,43 @@
+/* src/components/Header.css */
+header {
+  background: linear-gradient(90deg, #0c012d 0%, #6220f0 100%);
+
+    animation: gradientAnimation 10s infinite alternate; /* Animation de 10 secondes en boucle */
+  
+  color: white;
+  padding: 1rem 2rem; /* Ajouter de l'espace à gauche et à droite */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-right: 2rem; /* Ajouter de l'espace à droite du logo */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Ajouter de l'espace entre les mots dans les liens de navigation */
+nav a {
+  margin-right: 5rem;
+}
+
+/* Hover effect on navigation links */
+a:hover {
+  border-bottom: 2px solid #3498db;
+}
+
